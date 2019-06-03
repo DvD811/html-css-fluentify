@@ -4,26 +4,47 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f9f9f9;
+}
+
+.mega-contenitore {
+    max-width: 1450px;
+    margin: auto;
+}
+
 header {
     height: 80px;
     background-color: #0d325a;
 }
 
-.contenuto {}
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #f9f9f9;
+}
+
+.blu {
+    background-color: #0f335a;
+}
+
+.blu-light {
+    background-color: #17406b;
+}
+
+.row {
+    height: 150px;
+}
+
+.cont {
+    height: 540px;
+}
 
 .cont-blu {
     height: 420px;
     background-color: #0d325a;
-}
-
-.row-grey {
-    background: grey;
-    height: 150px;
-}
-
-.row-blu {
-    background: #0f335a;
-    height: 150px;
 }
 
 .cont-col {
@@ -40,7 +61,6 @@ header {
 .col3 {
     float: left;
     width: 33.33%;
-    background-color: white;
     border: 1px solid black;
     height: 100%
 }
@@ -48,29 +68,8 @@ header {
 .col2 {
     float: left;
     width: 50%;
-    background-color: white;
     border: 1px solid black;
     height: 100%
-}
-
-.col2-blu {
-    float: left;
-    width: 50%;
-    background-color: #0d325a;
-    border: 1px solid black;
-    height: 100%
-}
-
-.col2-blu-light {
-    float: left;
-    width: 50%;
-    background-color: #0d325a;
-    border: 1px solid black;
-    height: 100%
-}
-
-.cont {
-    height: 540px;
 }
 
 section {}
@@ -78,4 +77,11 @@ section {}
 footer {
     height: 300px;
     background: rgb(55, 84, 114)
+}
+
+#logo {
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    vertical-align: middle;
 }
