@@ -21,6 +21,11 @@ header {
     height: 150px;
 }
 
+.row-blu {
+    background: #0f335a;
+    height: 150px;
+}
+
 .cont-col {
     height: 520px;
     width: 100%;
@@ -38,6 +43,34 @@ header {
     background-color: white;
     border: 1px solid black;
     height: 100%
+}
+
+.col2 {
+    float: left;
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+    height: 100%
+}
+
+.col2-blu {
+    float: left;
+    width: 50%;
+    background-color: #0d325a;
+    border: 1px solid black;
+    height: 100%
+}
+
+.col2-blu-light {
+    float: left;
+    width: 50%;
+    background-color: #0d325a;
+    border: 1px solid black;
+    height: 100%
+}
+
+.cont {
+    height: 540px;
 }
 
 section {}
