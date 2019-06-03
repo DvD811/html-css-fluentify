@@ -4,4 +4,45 @@
     box-sizing: border-box;
 }
 
-body {}
+header {
+    height: 80px;
+    background-color: #0d325a;
+}
+
+.contenuto {}
+
+.cont-blu {
+    height: 420px;
+    background-color: #0d325a;
+}
+
+.row-grey {
+    background: grey;
+    height: 150px;
+}
+
+.cont-col {
+    height: 520px;
+    width: 100%;
+}
+
+.cont-col::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.col3 {
+    float: left;
+    width: 33.33%;
+    background-color: white;
+    border: 1px solid black;
+    height: 100%
+}
+
+section {}
+
+footer {
+    height: 300px;
+    background: rgb(55, 84, 114)
+}
